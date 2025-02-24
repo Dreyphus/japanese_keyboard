@@ -1,0 +1,17 @@
+{
+    "name": "Katakana keyboard",
+    "version": "1.0.0",
+    "description": "keyboard for katakana",
+    "manifest_version": 3,
+    "author": "David Cooney",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Katakana keyboard"
+    },
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"]
+    }
+  ]
+}

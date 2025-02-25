@@ -56,6 +56,7 @@ function convert_input(){
     }
     else if(buffer.length > 2){
         buffer = buffer.slice(1);
+        convert_input();
     }
 }
 
